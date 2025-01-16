@@ -66,7 +66,7 @@ wwv_flow_api.create_page_button(
 ,p_button_action=>'REDIRECT_PAGE'
 ,p_button_template_options=>'#DEFAULT#:t-Button--small:t-Button--link'
 ,p_button_template_id=>wwv_flow_api.id(1225705764797288347)
-,p_button_image_alt=>'Learn More about &APP_TITLE.'
+,p_button_image_alt=>'Flexdeploy Learn More about &APP_TITLE.'
 ,p_button_position=>'REGION_TEMPLATE_PREVIOUS'
 ,p_button_redirect_url=>'f?p=&APP_ID.:HELP:&SESSION.::&DEBUG.:RP::'
 ,p_grid_new_grid=>false
