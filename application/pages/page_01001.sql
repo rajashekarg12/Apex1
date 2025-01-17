@@ -5,7 +5,7 @@ wwv_flow_api.create_page(
 ,p_user_interface_id=>wwv_flow_api.id(2333082129878819730)
 ,p_name=>'Page Help Dialog'
 ,p_page_mode=>'MODAL'
-,p_step_title=>'Help'
+,p_step_title=>'Assistance'
 ,p_autocomplete_on_off=>'OFF'
 ,p_step_template=>wwv_flow_api.id(1225670034934288306)
 ,p_page_template_options=>'#DEFAULT#'
@@ -66,7 +66,7 @@ wwv_flow_api.create_page_button(
 ,p_button_action=>'REDIRECT_PAGE'
 ,p_button_template_options=>'#DEFAULT#:t-Button--small:t-Button--link'
 ,p_button_template_id=>wwv_flow_api.id(1225705764797288347)
-,p_button_image_alt=>'KLearn More about &APP_TITLE.'
+,p_button_image_alt=>'Learn More about &APP_TITLE.'
 ,p_button_position=>'REGION_TEMPLATE_PREVIOUS'
 ,p_button_redirect_url=>'f?p=&APP_ID.:HELP:&SESSION.::&DEBUG.:RP::'
 ,p_grid_new_grid=>false
