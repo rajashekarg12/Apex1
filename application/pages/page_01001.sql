@@ -1,5 +1,3 @@
-
-
 prompt --application/pages/page_01001
 begin
 wwv_flow_api.create_page(
